@@ -38,6 +38,7 @@
     autoplay: true,
     pauseOnHover: true,
     pagination: false,
+     arrows: false,
     perPage:3,
     breakpoints: {
       1200: {
