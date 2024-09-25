@@ -12,6 +12,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@splidejs/vue-splide": "^0.6.12",
     "aos": "^2.3.4",
+    "primeicons": "^7.0.0",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },

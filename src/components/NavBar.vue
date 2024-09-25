@@ -4,7 +4,9 @@
   >
     <section>
       <div class="logo w-14 h-14">
-       <a href="#"> <img src="../assets/logo.png" alt="logo" class="w-full h-full" /></a>
+        <a href="#">
+          <img src="../assets/logo.png" alt="logo" class="w-full h-full"
+        /></a>
       </div>
     </section>
     <section
@@ -15,57 +17,48 @@
         class="flex self-end justify-self-start absolute top-4 cursor-pointer md:hidden right-5"
         @click="showMenu"
       >
-        <img src="@/assets/cross.png" alt="close" class="w-10 h-10" />
+        <i class="pi pi-times text-4xl text-secondary"></i>
       </div>
       <ul
         class="flex lg:gap-8 md:gap-4 gap-4 md:flex-row flex-col text-base text-secondary font-bold"
       >
         <li>
-          <a
-            href="#mission"
-            class="flex items-center gap-2"
+          <a href="#mission" class="flex items-center gap-2" @click="showMenu"
             >Mission</a
           >
         </li>
         <li>
-          <a
-            href="#gallery"
-            class="flex items-center gap-2"
+          <a href="#gallery" class="flex items-center gap-2" @click="showMenu"
             >Gallery</a
           >
         </li>
         <li>
-          <a
-            href="#Team"
-            class="flex items-center gap-2"
+          <a href="#Team" class="flex items-center gap-2" @click="showMenu"
             >Team</a
           >
         </li>
         <li>
-          <a
-            href="#events"
-            class="flex items-center gap-2"
+          <a href="#events" class="flex items-center gap-2" @click="showMenu"
             >Events</a
           >
         </li>
         <li>
-          <a
-            href="#contact"
-            class="flex items-center gap-2"
+          <a href="#contact" class="flex items-center gap-2" @click="showMenu"
             >Contact</a
           >
         </li>
       </ul>
       <div>
-        <button
+        <a
+          href="#contact"
+          @click="showMenu"
           class="rounded-lg lg:px-3 md:px-2 px-3 text-xs md-text-base py-3 text-main bg-secondary"
+          >Donate now</a
         >
-        <a href="#contact">Donate now</a>
-        </button>
       </div>
     </section>
     <div class="w-10 h-8 md:hidden flex cursor-pointer" @click="showMenu">
-      <img src="@/assets/menu.png" alt="menu" class="w-full h-full" />
+      <i class="pi pi-bars text-4xl text-secondary" ></i>
     </div>
   </header>
 </template>

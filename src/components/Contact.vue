@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="py-12 px-10 bg-green-100" >
     <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-8">Support Our Mission</h2>
+      <h2 class="text-3xl font-bold mb-8 text-secondary">Support Our Mission</h2>
       <form class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
         <div class="mb-4">
           <label for="name" class="block text-left text-gray-700">Name</label>
