@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:px-32 px-5 md:px-10 py-10" id="gallery">
+    <div class="lg:px-20 px-2 md:px-5 py-10" id="gallery">
       <h1 class="font-heading text-3xl text-center py-10 text-secondary">Gallery</h1>
       <Splide 
         :options="sliderOptions"
@@ -17,11 +17,12 @@
   import '@splidejs/splide/dist/css/splide.min.css';
   
   // Import your images
-  import img1 from '../assets/child1.jpg';
-  import img2 from '../assets/child2.jpg';
-  import img3 from '../assets/child3.jpg';
-  import img4 from '../assets/child4.jpg';
-  import img5 from '../assets/child5.jpg';
+  import img1 from '../assets/1.jpg';
+  import img2 from '../assets/2.jpg';
+  import img3 from '../assets/3.jpg';
+  import img4 from '../assets/4.jpg';
+  import img5 from '../assets/5.jpg';
+  import img6 from '../assets/6.jpg'
   
   const images = ref([
     { img: img1, alt: 'Child playing outdoors' },
@@ -29,7 +30,7 @@
     { img: img3, alt: 'Smiling child with a toy' },
     { img: img4, alt: 'Group of children having fun' },
     { img: img5, alt: 'Child enjoying nature' },
-    { img: img2, alt: 'Children playing in the park' },
+    { img: img6, alt: 'Children playing in the park' },
   ]);
   
   const sliderOptions = {
@@ -39,7 +40,7 @@
     pauseOnHover: true,
     pagination: false,
      arrows: false,
-    perPage:3,
+    perPage:2,
     breakpoints: {
       1200: {
         perPage: 4,

@@ -10,7 +10,7 @@
       </div>
     </section>
     <section
-      class="flex items-center md:flex-row flex-col justify-center transition-all duration-300 md:justify-start lg:gap-32 gap-24 absolute top-0 right-0 border-0 bg-green-200 md:bg-transparent h-[100dvh] w-0 overflow-hidden md:w-auto z-20 md:relative md:pt-0"
+      class="flex items-center md:flex-row   flex-col justify-center transition-all duration-300 md:justify-start lg:gap-32 gap-24 absolute top-0 right-0 bg-green-200 md:h-14 md:bg-transparent h-[100dvh] w-0 overflow-hidden md:w-auto z-20 md:relative md:pt-0"
       :class="{ showMenu: menuOpen }"
     >
       <div
@@ -74,9 +74,10 @@ const showMenu = () => {
 };
 </script>
 <style scoped>
+@media screen and (max-width:760px) {
 .showMenu {
   width: 100%;
-}
+}}
 .router-link-exact-active {
   border-bottom: 2px solid greenyellow;
   color: #0f6b50;
