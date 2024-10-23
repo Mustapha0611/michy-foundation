@@ -16,7 +16,7 @@
 
 <script>
 import woman from '../assets/black-woman.png'
-import man from '../assets/black-man.png'
+import Ceo from '../assets/Ceo.jpg'
 import whitewoman from '../assets/white-woman.png'
 export default {
   name: 'TeamSection',
@@ -25,10 +25,10 @@ export default {
       teamMembers: [
         {
           id: 1,
-          name: 'John Doe',
+          name: 'Michy Amin',
           position: 'Founder & CEO',
           bio: 'John is passionate about environmental sustainability and community development.',
-          photo: man
+          photo: Ceo
         },
         {
           id: 2,

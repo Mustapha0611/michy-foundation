@@ -47,12 +47,13 @@
       <span class="text-3xl font-mono text-secondary mb-3 text-center"
         >Donate to our course via :</span
       >
-
+      <p class="font-light text-secondary">Michyamin_foundation-SunTrust bank</p>
       <p
         class="mb-2 text-secondary bg-gray-200/30 py-3 px-7 rounded-lg shadow-md hover:scale-105 font-mono text-2xl transition-all cursor-pointer"
       >
         {{ accountNumber }}
       </p>
+     
       <button
         @click="copyToClipboard"
         class="px-4 py-2.5 mt-2 bg-secondary mx-auto text-white rounded hover:bg-green-600 transition-colors focus:outline-none"
@@ -77,7 +78,7 @@ import { ref } from "vue";
 
 export default {
   setup() {
-    const accountNumber = ref("1234-2321-3456");
+    const accountNumber = ref("0024915682");
     const copied = ref(false);
 
     const copyToClipboard = async () => {
