@@ -64,9 +64,9 @@
       <transition name="fade">
         <p
           v-if="copied"
-          class="mt-2 text-green-50 rounded-md px-5 py-2 bg-green-700/40"
+          class="mt-2 text-green-50 rounded-s-md px-5 z-20 fixed top-5 right-0 py-2 bg-green-700"
         >
-          Copied to clipboard!
+         Successfully Copied account number to clipboard!
         </p>
       </transition>
     </div>
