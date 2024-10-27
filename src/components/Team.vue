@@ -2,10 +2,10 @@
   <section class="py-12 bg-secondary scroll-m-24" id="Team">
     <div class="container mx-auto text-center">
       <h2 class="text-3xl font-bold mb-8 text-main">Meet Our Team</h2>
-      <div class="flex flex-wrap justify-center text-main">
-        <div v-for="member in teamMembers" :key="member.id" class="max-w-xs m-4 p-6 ">
+      <div class="lg:grid grid-cols-4 flex flex-wrap justify-center text-main">
+        <div v-for="member in teamMembers" :key="member.id" class="max-w-xs p-6 ">
           <img :src="member.photo" :alt="member.name" class="w-56 h-56 mx-auto  rounded-md mb-4" />
-          <h3 class="text-xl font-semibold">{{ member.name }}</h3>
+          <h3 class="text-md font-semibold">{{ member.name }}</h3>
           <p class="">{{ member.position }}</p>
           <p class="mt-2 text-xs">{{ member.bio }}</p>
         </div>
@@ -21,6 +21,10 @@ import rabi from '../assets/rabi.jpg'
 import Ahmad from '../assets/Ahmad.jpg'
 import cos from '../assets/cos.jpg'
 import admin from '../assets/admin.jpg'
+import sam from  '../assets/sam.jpg'
+import jake  from '../assets/jake.jpg'
+
+
 
 export default {
   name: 'TeamSection',
@@ -34,29 +38,42 @@ export default {
           photo: Ceo
         },
         {
-          id: 1,
+          id: 2,
           name: 'Daniel Orinya',
           position: 'Director Admin',
           photo: admin
         },
         {
-          id: 1,
+          id: 3,
+          name: 'Idowu Jacobs',
+          position: 'Director Special services',
+          photo: jake
+        },
+        {
+          id: 4,
           name: 'Sani Samuel Utene',
           position: 'Chief of Staff',
           photo: cos
         },
         {
-          id: 1,
+          id: 5,
           name: 'Ahmad Abubakar Ahmad',
-          position: 'Project Director',
+          position: 'Program Director',
           photo: Ahmad
         },
         {
-          id: 1,
+          id: 6,
           name: 'Rabiatu Suleiman Hussain',
           position: 'Program manager',
           photo: rabi
         },
+        {
+          id: 7,
+          name: 'Samuel Omomoh',
+          position: 'Media Director',
+          photo: sam
+        },
+        
         // Add more team members as needed
       ]
     };
