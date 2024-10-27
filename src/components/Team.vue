@@ -1,13 +1,12 @@
 <template>
   <section class="py-12 bg-secondary scroll-m-24" id="Team">
     <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-8 text-main">Meet Our Team</h2>
+      <h2 class="text-3xl font-bold mb-8 text-main" data-aos="fade-up" data-aos-duration="400">Meet Our Team</h2>
       <div class="lg:grid grid-cols-4 flex flex-wrap justify-center text-main">
-        <div v-for="member in teamMembers" :key="member.id" class="max-w-xs p-6 ">
-          <img :src="member.photo" :alt="member.name" class="w-56 h-56 mx-auto  rounded-md mb-4" />
+        <div v-for="member in teamMembers" :key="member.id" class="max-w-xs p-6 " data-aos="fade-up">
+          <img :src="member.photo" :alt="member.name" class="w-56 h-56 mx-auto aspect-square object-cover center  rounded-md mb-4" />
           <h3 class="text-md font-semibold">{{ member.name }}</h3>
           <p class="">{{ member.position }}</p>
-          <p class="mt-2 text-xs">{{ member.bio }}</p>
         </div>
       </div>
     </div>

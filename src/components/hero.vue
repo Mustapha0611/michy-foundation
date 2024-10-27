@@ -30,6 +30,7 @@
         <div
           class="md:w-[80%] lg:h-[450px] lg:w-[460px] sm:h-[350px] sm:w-[350px] w-[300px] h-[300px] object-contain rounded-full overflow-hidden"
           data-aos="zoom-in"
+          data-aos-delay="2000"
           data-aos-duration="4000"
         >
           <img

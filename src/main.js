@@ -18,5 +18,5 @@ app.use(VueSplide);
 
 app.mount("#app");
 AOS.init({
-  duration: 1500,
+  duration: 1000,
 });
