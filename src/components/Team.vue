@@ -37,6 +37,12 @@ export default {
           photo: Ceo
         },
         {
+          id: 4,
+          name: 'Sani Samuel Utene',
+          position: 'Chief of Staff',
+          photo: cos
+        },
+        {
           id: 2,
           name: 'Daniel Orinya',
           position: 'Director Admin',
@@ -47,12 +53,6 @@ export default {
           name: 'Idowu Jacobs',
           position: 'Director Special services',
           photo: jake
-        },
-        {
-          id: 4,
-          name: 'Sani Samuel Utene',
-          position: 'Chief of Staff',
-          photo: cos
         },
         {
           id: 5,
