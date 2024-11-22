@@ -11,7 +11,7 @@
       </div>
       <div>
         <h2 class="text-3xl font-bold mb-8 text-main" data-aos="fade-up" data-aos-duration="400">Board of trustees</h2>
-        <div class="lg:grid grid-cols-5 gap-10 lg:gap-4 flex flex-wrap justify-center text-main">
+        <div class="lg:grid grid-cols-5 px-10 md:px-0 gap-10 lg:gap-4 flex flex-wrap justify-center text-main">
           <p class="flex flex-col items-center">
             <span class="font-bold text-xl">
               Cheryl Aminta Kwagga 
