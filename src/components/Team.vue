@@ -9,6 +9,52 @@
           <p class="">{{ member.position }}</p>
         </div>
       </div>
+      <div>
+        <h2 class="text-3xl font-bold mb-8 text-main" data-aos="fade-up" data-aos-duration="400">Board of trustees</h2>
+        <div class="lg:grid grid-cols-5 flex flex-wrap justify-center text-main">
+          <p class="flex flex-col items-center">
+            <span class="font-bold text-xl">
+              Cheryl Aminta Kwagga 
+            </span>
+            <span class="font-light">
+              Founder/Ceo
+            </span>
+          </p>
+          <p class="flex flex-col items-center">
+            <span class="font-bold text-xl">
+              ⁠Samuel Ebi Awala
+            </span>
+            <span class="font-light">
+              Vice President 1
+            </span>
+          </p>
+          <p class="flex flex-col items-center">
+            <span class="font-bold text-xl">
+              Lydia Sara Bulus 
+            </span>
+            <span class="font-light">
+              Vice President 2
+            </span>
+          </p>
+          <p class="flex flex-col items-center">
+            <span class="font-bold text-xl">
+              ⁠Harrieta Tekena Briggi
+            </span>
+            <span class="font-light">
+              Secretary 
+
+            </span>
+          </p>
+          <p class="flex flex-col items-center">
+            <span class="font-bold text-xl">
+              ⁠Blessing Ogwuche 
+            </span>
+            <span class="font-light">
+              Treasurer
+            </span>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
