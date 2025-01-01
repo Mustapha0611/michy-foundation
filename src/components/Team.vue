@@ -68,6 +68,7 @@ import cos from '../assets/cos.jpg'
 import admin from '../assets/admin.jpg'
 import sam from  '../assets/sam.jpg'
 import jake  from '../assets/jake.jpg'
+import md from '../assets/md.jpg'
 
 
 
@@ -114,9 +115,9 @@ export default {
         },
         {
           id: 7,
-          name: 'Samuel Omomoh',
-          position: 'Media Director',
-          photo: sam
+          name: 'Muhammad M.Attahir',
+          position: 'Director,monitoring and evaluation',
+          photo: md
         },
         
         // Add more team members as needed
